@@ -1,0 +1,18 @@
+### Node ###
+
+# Dependency directories
+node_modules/
+
+# dotenv environment variables file
+.env
+.env.test
+.env.production
+
+# Gatsby files
+.cache/
+
+# Uploads
+public/uploads/
+
+# Stores VSCode versions used for testing VSCode extensions
+.vscode-test

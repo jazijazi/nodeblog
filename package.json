@@ -1,0 +1,27 @@
+{
+  "name": "nodebookstore",
+  "version": "1.0.0",
+  "description": "a simple api with nodejs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "devStart": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "jazi",
+  "license": "ISC",
+  "dependencies": {
+    "async-redis": "^2.0.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.13.5",
+    "mongoose-unique-validator": "^2.0.3",
+    "multer": "^1.4.3",
+    "nodemailer": "^6.6.3",
+    "redis": "^3.1.2"
+  }
+}

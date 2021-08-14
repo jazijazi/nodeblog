@@ -1,0 +1,29 @@
+## npm init
+## npm install nodemon
+## add "devStart": "nodemon server.js" to  package.json
+## npm run-script devStart
+## npm run devStart
+
+
+## docker-compose -f services.yml up
+## docker exec -it <container name> bash
+## mongo -u root -p root
+##commands: show dbs >> use nodeblog >> show collections >> db.users.find()
+
+---------
+
+# in mongo uri:
+# ?authSource=admin  means This is the name of the database that has the collection with the user credentials.
+# OR can use :
+# db.createUser(
+  {
+    user: "username",
+    pwd: "password",
+    roles: [ { role: "root", db: "admin" } ]
+  }
+)
+
+------------
+
+#redis-cli -h X.X.X.X -p xxxx
+#docker exec -it <container name> redis-cli
